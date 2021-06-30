@@ -73,6 +73,12 @@ class Game {
     }, 10);
   }
 
+  // MÉTODOS DE AYUDA PARA EL DESARROLLO
+  borrarCanvas() {
+    this.ctx.fillStyle = this.estilosCanvas.background;
+    this.ctx.fillRect(0, 0, this.estilosCanvas.width, this.estilosCanvas.height);
+  }
+
   // MÉTODOS DEL CICLO DEL JUEGO
   load() {
     // Creación del canvas
@@ -97,11 +103,5 @@ class Game {
     this.functionLoop();
 
     requestAnimationFrame(() => this.loop());
-  }
-
-  // MÉTODOS DE AYUDA PARA EL DESARROLLO
-  borrarCanvas() {
-    this.ctx.fillStyle = this.estilosCanvas.background;
-    this.ctx.fillRect(0, 0, this.estilosCanvas.width, this.estilosCanvas.height);
   }
 }
