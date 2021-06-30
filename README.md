@@ -38,6 +38,4 @@ ___
 
 ## borrarCanvas
 * ### game.borrarCanvas()
-
-    Borra el canvas de acuerdo al color asignado en la configuración
-    asd
+>Borra el canvas de acuerdo al color asignado en la configuración
