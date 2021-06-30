@@ -1,4 +1,4 @@
-# Motor de videojuegos sencillo
+# Motor de videojuegos sencillo :gear::gear:
 
 ```js
 const configuracion = {
@@ -20,7 +20,7 @@ function loop(){
 }
 ```
 ___
-# Métodos
+# Métodos :factory:
 
 ## Dibujar
 * ### game.dibujar.cuadrado( { x, y, tam, color } );
