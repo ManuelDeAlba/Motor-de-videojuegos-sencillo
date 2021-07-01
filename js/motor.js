@@ -65,6 +65,16 @@ class Game {
         return this.grupos[nombre];
       }
     }
+    this.cambiar = {
+      objeto: (nombre, contenido) => {
+        this.objetos[nombre] = contenido;
+        return this.objetos[nombre];
+      },
+      grupo: (nombre, contenido) => {
+        this.grupos[nombre] = contenido;
+        return this.grupos[nombre];
+      }
+    }
 
     // Iniciar load
     // El setTimeout sirve para que me deje acceder al objeto game desde afuera (se evita el error de no llamar antes de la inicialización)
