@@ -12,11 +12,11 @@ const configuracion = {
 const game = new Game(configuracion);
 
 function load(){
-  //
+  // Código
 }
 
 function loop(){
-  //
+  // Código
 }
 ```
 ___
@@ -32,9 +32,13 @@ ___
 * ### game.crear.objeto(nombre, contenido)
 * ### game.crear.grupo(nombre, contenido)
 
-## Obtener
+## Obtener (Get)
 * ### game.obtener.objeto(nombre)
 * ### game.obtener.grupo(nombre)
+
+## Cambiar (Set)
+* ### game.cambiar.objeto(nombre, contenido)
+* ### game.cambiar.grupo(nombre, contenido)
 
 ## borrarCanvas
 * ### game.borrarCanvas()
